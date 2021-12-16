@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task manegiment</title>
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Task</h1>
+    <ul class="bar">
+      <li><a href="">page 1</a></li>
+      <li><a href="">page 2</a></li>
+      <li><a href="">settings</a></li>
+    </ul>
+    <div id="works">
+      <p>
+        work 1<br>
+        deadline 12/20<br>
+        manager Tom<br>
+        status not started yet<br>
+        <input type="button" value="delete" onclick="deleteButton()">
+      </p>
+      <p>
+        work 2<br>
+        deadline 12/10<br>
+        manager Bob<br>
+        status start<br>
+        <input type="button" value="delete" onclick="deleteButton()">
+      </p>
+      <p>work 3<br>
+        deadline 12/01<br>
+        manager clis<br>
+        status completion<br>
+        <input type="button" value="delete" onclick="deleteButton()">
+      </p>
+    </div>
+    <form action="">
+      <label>deadline</label>
+      <input type="text" id="deadline"><br>
+      <label>manager</label>
+      <input type="text" id="manager"><br>
+      <input type="button" value="add" onclick="updateButton()">
+    </form>
+    <script type="text/javascript" src="index.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+}
+
+.bar {
+  display: flex;
+}
+
+.bar a {
+  padding: 1px 5px;
+}
+
+p {
+  background: #f0f8ff;
+  border: solid 1px;
+}
+
