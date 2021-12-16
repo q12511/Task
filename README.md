@@ -5,5 +5,6 @@ This application manage Tasks.
 ## schedule
 1. delete
 2. add pages and setteings
-3. etc...
+3. status chenger
+4. etc...
 
