@@ -3,7 +3,7 @@
 This application manage Tasks.
 
 schedule
-delete
-add pages and setteings
-etc...
+1.delete
+2.add pages and setteings
+3.etc...
 
