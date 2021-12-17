@@ -8,29 +8,30 @@
     <h1>Task</h1>
     <ul class="bar">
       <li><a href="">page 1</a></li>
-      <li><a href="">page 2</a></li>
-      <li><a href="">settings</a></li>
+      <li><a href="sub.html">page 2</a></li>
+      <li><a href="setteings.html">settings</a></li>
     </ul>
     <div id="works">
-      <p>
+      <p id="task1">
         work 1<br>
         deadline 12/20<br>
         manager Tom<br>
         status not started yet<br>
-        <input type="button" value="delete" onclick="deleteButton()">
+        <input type="button" id="1" value="delete" onclick="deleteButton(this.id)">
       </p>
-      <p>
+      <p id="task2">
         work 2<br>
         deadline 12/10<br>
         manager Bob<br>
         status start<br>
-        <input type="button" value="delete" onclick="deleteButton()">
+        <input type="button" id="2" value="delete" onclick="deleteButton(this.id)">
       </p>
-      <p>work 3<br>
+      <p id="task3">
+        work 3<br>
         deadline 12/01<br>
         manager clis<br>
         status completion<br>
-        <input type="button" value="delete" onclick="deleteButton()">
+        <input type="button" id="3" value="delete" onclick="deleteButton(this.id)">
       </p>
     </div>
     <form action="">
