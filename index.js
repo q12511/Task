@@ -8,16 +8,16 @@ function updateButton() {
   var kazu = works.getElementsByTagName("p").length;
   var deadline = document.getElementById("deadline").value;
   var manager = document.getElementById("manager").value;
-  var status = "not started yet";
+  var status = "未着手";
 
   task.setAttribute("id", "task" + (kazu + 1));
-  task.innerHTML = "work " + (kazu + 1) +
-  "<br> deadline " + deadline +
-  "<br> manager " + manager +
-  "<br> status " + status + "<br>";
+  task.innerHTML = "仕事 " + (kazu + 1) +
+  "<br> 締め切り " + deadline +
+  "<br> 担当者 " + manager +
+  "<br> 進捗状況 " + status + "<br>";
   button.setAttribute("type", "button");
   button.setAttribute("id", (kazu + 1));
-  button.setAttribute("value", "delete");
+  button.setAttribute("value", "削除");
   button.setAttribute("onclick", "deleteButton(this.id)");
   task.appendChild(button);
   works.appendChild(task);

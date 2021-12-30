@@ -7,39 +7,39 @@
   <body>
     <h1>Task</h1>
     <ul class="bar">
-      <li><a href="">page 1</a></li>
-      <li><a href="sub.html">page 2</a></li>
-      <li><a href="setteings.html">settings</a></li>
+      <li><a href="">このページ</a></li>
+      <li><a href="sub.html">サブページ</a></li>
+      <li><a href="setteings.html">設定</a></li>
     </ul>
     <div id="works">
       <p id="task1">
-        work 1<br>
-        deadline 12/20<br>
-        manager Tom<br>
-        status not started yet<br>
-        <input type="button" id="1" value="delete" onclick="deleteButton(this.id)">
+        仕事 1<br>
+        締め切り 12/20<br>
+        担当者 Tom<br>
+        進捗状況 未着手<br>
+        <input type="button" id="1" value="削除" onclick="deleteButton(this.id)">
       </p>
       <p id="task2">
-        work 2<br>
-        deadline 12/10<br>
-        manager Bob<br>
-        status start<br>
-        <input type="button" id="2" value="delete" onclick="deleteButton(this.id)">
+        仕事 2<br>
+        締め切り 12/10<br>
+        担当者 Bob<br>
+        進捗状況 着手<br>
+        <input type="button" id="2" value="削除" onclick="deleteButton(this.id)">
       </p>
       <p id="task3">
-        work 3<br>
-        deadline 12/01<br>
-        manager clis<br>
-        status completion<br>
-        <input type="button" id="3" value="delete" onclick="deleteButton(this.id)">
+        仕事 3<br>
+        締め切り 12/01<br>
+        担当者 clis<br>
+        進捗状況 完了<br>
+        <input type="button" id="3" value="削除" onclick="deleteButton(this.id)">
       </p>
     </div>
     <form action="">
       <label>deadline</label>
-      <input type="text" id="deadline"><br>
+      <input type="text" id="締め切り"><br>
       <label>manager</label>
-      <input type="text" id="manager"><br>
-      <input type="button" value="add" onclick="updateButton()">
+      <input type="text" id="担当者"><br>
+      <input type="button" value="追加" onclick="updateButton()">
     </form>
     <script type="text/javascript" src="index.js"></script> 
   </body>
